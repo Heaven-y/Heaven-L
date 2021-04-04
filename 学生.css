@@ -1,0 +1,207 @@
+body{
+    font-family:"Microsoft YaHei";
+}
+a{
+    text-decoration: none;
+    color: #00712F;
+}
+i{
+    margin: 0 5px;
+}
+header{
+    background-color: #00712F;
+    display: flex;
+    justify-content:space-around;
+}
+.top-nav{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.top-nav a{
+    display: flex;
+    padding: 20px 18px;
+    color: #fff;
+}
+.top-nav a:hover{
+    background-color: #B29873;
+}
+
+
+.logo{
+    text-align: center;
+    margin:25px 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #B29873;
+}
+
+.head-wrap{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head li{
+    flex-grow: 1;
+    text-align: center;
+    position: relative;
+}
+.head li a{
+    display: block;
+    line-height: 40px;
+    font-size: 15px;
+}
+.head li:hover a{
+    background-color: #00712F;
+    color: #fff;
+}
+.head li:hover .s{
+    display: block;
+}
+.head li .s{ 
+    display: none;
+    position: absolute;
+    top:40px;
+    width: 100%;
+    text-align: center;
+    z-index:9999;
+}
+.head li .s a:hover{
+    background-color: #B29873;
+    color: #00712F;
+}
+
+.img-wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.img-wrap img{
+    width: 100%;
+}
+
+.all-nav{
+    display: flex;
+    justify-content: center;
+}
+.left-nav{
+    overflow: hidden;
+    position: relative;
+    top:-60px;
+    right: 20px;
+}
+.left-nav h1,.left-nav p{
+    border-bottom: 1px solid #fff;
+}
+.left-nav h1{
+    overflow: hidden;
+    font-size: 40px;
+    color: #fff;
+    height:80px;
+    background-color: #B29873;
+    padding: 25px 45px 0;
+    border-top: 2px solid #00712F;
+}
+.left-nav p{
+    padding: 20px;
+    background-color: rgb(240, 240, 225);
+}
+.left-nav .student{
+    border-left: 1px solid #00712F;
+}
+.left-nav .student a{
+    color: #fff;
+}
+.left-nav a,
+.small-nav a{
+    color: black;
+}
+.left-nav p:hover a{
+    color: #00712F;
+}
+.left-nav .student{
+    background-color: #B29873;
+}
+.center-nav h1{
+    font-size: 35px;
+    color: rgb(39, 174, 76);
+    padding: 25px 0;
+    border-bottom:1px solid #00712F;
+}
+.center-nav  h3{
+    background-color: rgb(245, 245, 245);
+    padding: 10px 2px;
+    margin-top: 5px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.item span{
+    display: block;
+    width: 33.333%;
+    margin: 5px 0;
+}
+.item span a{
+    color: #B29873;
+}
+.item span a:hover{
+    color: #00712F;
+}
+
+
+.foot-wrap{
+    padding: 60px 0;
+    background-color: #F0F0E1;
+    display: flex;
+    justify-content: center; 
+} 
+.foot{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+.foot li{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.foot li h4{
+    margin-bottom: 10px;
+}
+.foot li h4 a{
+    font-size: 15px;
+    color: #22132d;
+}
+.foot li>a{
+    margin: 6px 0;
+    font-size: 13px;
+    color: #585858;
+}
+.foot-wrap a:hover{
+    color: #4F608C;
+}
+footer{
+    background-color: #00712F;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    margin: 6px 0;
+}
+footer a{
+    color: #fff;
+}
+footer p:first-child{
+    padding-top:10px;
+}
+footer p:last-child{
+    padding-bottom: 6px;
+}
